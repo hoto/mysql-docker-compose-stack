@@ -8,6 +8,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: example
+    ports:
+      - 7777:3306
 
 # Use root/example as user/password credentials
 
